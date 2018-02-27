@@ -8,4 +8,5 @@
 
 require_once('../includes/database.php');
 
-echo "no change";
+echo "no changes";
+echo '<h2>header</h2>';
