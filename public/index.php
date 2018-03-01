@@ -21,7 +21,7 @@ echo "<br />";
 ////$user->update();
 //$user->save();
 
-//delete data from the table
+//delete user data from the table
 $user = User::find_by_id(3);
 $user->delete();
 echo $user->first_name . " was deleted";
