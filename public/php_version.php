@@ -1,4 +1,5 @@
 <?php
+//check version of php installed in local machine
 $version = phpversion();
 print $version;
 
