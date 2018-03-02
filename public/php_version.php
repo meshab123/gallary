@@ -2,7 +2,9 @@
 //check version of php installed in local machine
 $version = phpversion();
 print $version;
-
+echo "<pre>";
+ print_r(phpversion());
+echo "</pre>";
 $aws = new Aws($config);
 $bucket = $aws->s3->bucket('my-bucket');
 $object = $bucket->object('images/bird.jpg');
