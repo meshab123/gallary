@@ -1,2 +1,6 @@
 //This file will walk you through how to use the system as an end user
+##two types of users
+## credential users: user can log in the system and make a change to a photo gallery
+## all other user: user can only see and write comment on the gallery
+
 
