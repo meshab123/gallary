@@ -5,6 +5,7 @@ print $version;
 echo "<pre>";
  print_r(phpversion());
 echo "</pre>";
+//saving file in AWS 
 $aws = new Aws($config);
 $bucket = $aws->s3->bucket('my-bucket');
 $object = $bucket->object('images/bird.jpg');
